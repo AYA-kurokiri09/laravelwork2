@@ -24,14 +24,7 @@
         <tr><th colspan="2">Dashboard</th></tr>
         <tr><td colspan="2">You are logged in!</td></tr>
     </table>
-
-    <script>
-        $(function() {
-            $('#loginName').click(function(){
-                $('#logoutBtn').slideUp();
-            })
-  
-        });
-    </script>
+    
+    <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>
