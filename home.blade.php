@@ -16,7 +16,7 @@
         </div>
         
         <div>
-            <h1 id="loginName">名前▼</h1>
+            <h1 id="loginName">{{$name['name']}}▼</h1>
             <a id="logoutBtn" href="{{ route('work1.index')}}">Logout</a>
         </div>
     </header>
