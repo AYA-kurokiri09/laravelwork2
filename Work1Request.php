@@ -30,4 +30,12 @@ class Work1Request extends FormRequest
             'password' => 'confirmed',
         ];
     }
+
+    public function messages()
+    {
+        return [
+            'password_confirmation.min' => 'Passwordは7文字以上で入力下さい。',
+            'password.confirmed' => 'PasswordとConfirm Passwordが一致しません。',
+        ];
+    }
 }
