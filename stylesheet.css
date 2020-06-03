@@ -3,6 +3,9 @@
 h1 {font-size: 12pt;
     color: #000;
     font-weight: normal;}
+    
+p {font-size: 20pt;
+    color: red;}
 
 #logoutBtn {display: none;
             position: absolute;
@@ -12,6 +15,8 @@ h1 {font-size: 12pt;
             background-color: #c1ffe0;
             border: 1px solid #000;
             border-radius: 4px;}
+            
+#loginName {cursor: pointer;}
 
 header {display: flex;
         justify-content: space-between;
