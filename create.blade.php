@@ -42,15 +42,15 @@
             </tr>
             <tr>
                 <td class="login_content">E-Mail Address</td>
-                <td><input type="text" class="text" name="mail"></td>
+                <td><input type="email" class="text" name="mail"></td>
             </tr>
             <tr>
                 <td class="login_content">Password</td>
-                <td><input type="text" class="text" name="password_confirmation"></td>
+                <td><input type="password" class="text" name="password"></td>
             </tr>
             <tr>
                 <td class="login_content">Confirm Password</td>
-                <td><input type="text" class="text" name="password"></td>
+                <td><input type="password" class="text" name="password_confirmation"></td>
             </tr>
             <tr>
                 <td class="login_content"></td>
