@@ -22,11 +22,11 @@
 <p>全ての項目を入力して下さい。</p>
 @endif
 
-@error('password_confirmation')
+@error('password')
     <p>{{$message}}</p>
 @enderror
 
-@error('password')
+@error('confirmPassword')
     <p>{{$message}}</p>
 @enderror
 
@@ -50,7 +50,7 @@
             </tr>
             <tr>
                 <td class="login_content">Confirm Password</td>
-                <td><input type="password" class="text" name="password_confirmation"></td>
+                <td><input type="password" class="text" name="confirmPassword"></td>
             </tr>
             <tr>
                 <td class="login_content"></td>
