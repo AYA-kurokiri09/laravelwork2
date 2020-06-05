@@ -26,16 +26,17 @@ class Work1Request extends FormRequest
         return [
             'name' => 'required',
             'mail' => 'required',
-            'password_confirmation' => 'min:7',
-            'password' => 'confirmed',
+            'password' => 'min:7',
+            'confirmPassword' => 'required|same:password',
         ];
     }
 
     public function messages()
     {
         return [
-            'password_confirmation.min' => 'Passwordは7文字以上で入力下さい。',
-            'password.confirmed' => 'PasswordとConfirm Passwordが一致しません。',
+            'password.min' => 'Passwordは7文字以上で入力して下さい。',
+            'confirmPassword.required' => 'PasswordとConfirm Passwordが一致しません。',
+            'confirmPassword.same' => 'PasswordとConfirm Passwordが一致しません。',
         ];
     }
 }
